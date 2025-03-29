@@ -27,6 +27,7 @@ img {
 
 .nav {
     list-style-type: none;
+    cursor: pointer;
     display: flex;
     gap: 3px;
     padding: 25px;
