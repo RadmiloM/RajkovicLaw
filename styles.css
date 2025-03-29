@@ -40,3 +40,7 @@ img {
 .nav li a:visited {
     color: inherit;
 }
+
+.nav li a:hover {
+    color: #004080; 
+}
