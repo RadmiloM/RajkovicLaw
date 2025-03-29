@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.go-back {
+    border: 0;
+    background: transparent;
+    cursor: grab;
+    font-size:25px;
+}
+
+.header-container {
+    display: flex;
+    gap: 3px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
