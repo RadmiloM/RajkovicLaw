@@ -21,6 +21,8 @@
 img {
     width: 100%;
     height: 100%;
+    opacity: 0;
+    animation: showImage 4s ease-in-out forwards;
 }
 
 .nav {
@@ -31,6 +33,8 @@ img {
     justify-content: space-evenly;
     background-color: #071e26;
     color: darkgoldenrod;
+    opacity: 0;
+    animation: showImage 2s ease-in-out forwards;
 }
 
 .nav li a {
@@ -43,4 +47,14 @@ img {
 
 .nav li a:hover {
     color: #004080; 
+}
+
+@keyframes showImage {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
