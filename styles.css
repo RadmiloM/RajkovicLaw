@@ -60,3 +60,10 @@ img {
         opacity: 1;
     }
 }
+
+.footer {
+    padding: 25px;
+    background-color: #071e26;
+    color: darkgoldenrod;
+    text-align: center;
+}
