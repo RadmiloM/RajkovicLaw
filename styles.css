@@ -86,10 +86,18 @@ img {
   animation: showImage 3s ease-in-out forwards;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 481px) and (max-width: 1000px) {
     .image-text {
         padding: 5px;
         max-width: 90%;
         font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .image-text {
+        padding: 5px;
+        max-width: 90%;
+        font-size: 14px;
     }
 }
