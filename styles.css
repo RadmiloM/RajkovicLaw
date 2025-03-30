@@ -74,3 +74,22 @@ img {
         flex-wrap: wrap;
     }
 }
+
+.contact-title {
+    margin: auto;
+}
+
+.contact-details {
+    padding: 40px;
+    margin: auto;
+    border: 1px solid black;
+    width: 20%;
+}
+
+.mobile {
+    display: flex;
+}
+
+.email {
+    display: flex;
+}
