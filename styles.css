@@ -67,3 +67,20 @@ img {
     color: darkgoldenrod;
     text-align: center;
 }
+
+.image-info {
+    position: relative;
+}
+
+.image-text{
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  transform: translate(-20%, -60%);
+  font-size: 24px;
+  line-height: 1.5;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 1.0);
+  padding: 25px;
+  font-family: 'Arial', sans-serif;
+}
