@@ -83,8 +83,10 @@ img {
     padding: 40px;
     margin: auto;
     border: 1px solid black;
-    width: 20%;
+    width: 80%;         /* Set width as a percentage to be responsive */
+    max-width: 600px;   /* Ensures the section doesn't grow too large */
 }
+
 
 .mobile {
     display: flex;
