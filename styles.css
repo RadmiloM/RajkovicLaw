@@ -68,36 +68,3 @@ img {
     text-align: center;
 }
 
-.image-info {
-    position: relative;
-}
-
-.image-text{
-  color: white;
-  position: absolute;
-  top: 40%;
-  left: 70%;
-  transform: translate(-20%, -60%);
-  font-size: 24px;
-  line-height: 1.5;
-  text-shadow: 4px 4px 8px rgba(0, 0, 0, 1.0);
-  padding: 25px;
-  font-family: 'Arial', sans-serif;
-  animation: showImage 3s ease-in-out forwards;
-}
-
-@media screen and (min-width: 481px) and (max-width: 1101px) {
-    .image-text {
-        padding: 15px;
-        max-width: 95%;
-        font-size: 13;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .image-text {
-        font-size: 10px;  
-        padding: 3px;
-        max-width: 95%;
-    }
-}
