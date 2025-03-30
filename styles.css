@@ -68,3 +68,9 @@ img {
     text-align: center;
 }
 
+@media screen and (max-width: 1025px) {
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
