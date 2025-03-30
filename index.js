@@ -1,15 +1,16 @@
 const russianFlag = document.querySelector('.russian');
 const englandFlag = document.querySelector('.great-britain');
-serbianFlag = document.querySelector('.serbian');
+const serbianFlag = document.querySelector('.serbian');
+const franceFlag = document.querySelector('.france');
 
 russianFlag.addEventListener('click', () => {
     const about = document.querySelector('.about');
     const services = document.querySelector('.services');
     const contact = document.querySelector('.contact');
 
-    about.textContent = 'O nas'
+    about.textContent = ' О нас'
     services.textContent = 'Услуги';
-    contact.textContent = 'Контакт';
+    contact.textContent = 'Контакты';
 });
 
 englandFlag.addEventListener('click', () => {
@@ -22,6 +23,16 @@ englandFlag.addEventListener('click', () => {
     contact.textContent = 'Contact';
 
 });
+
+franceFlag.addEventListener('click', () => {
+    const about = document.querySelector('.about');
+    const services = document.querySelector('.services');
+    const contact = document.querySelector('.contact');
+
+    about.textContent = 'À propos'
+    services.textContent = 'Services';
+    contact.textContent = 'Contact';
+})
 
 serbianFlag.addEventListener('click', () => {
     const about = document.querySelector('.about');
