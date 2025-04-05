@@ -68,30 +68,99 @@ img {
     text-align: center;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 457px) {
     .nav {
         display: flex;
         flex-wrap: wrap;
     }
 }
 
+@media screen and (max-width: 456px) {
+    .nav {
+        display: flex;
+    }
+
+    .nav span {
+        flex-basis: 22%;
+    }
+
+}
 .contact-title {
     margin: auto;
+    text-shadow: 2px 2px 5px orange;
 }
 
 .contact-details {
     padding: 40px;
     margin: auto;
     border: 1px solid black;
-    width: 80%;         /* Set width as a percentage to be responsive */
-    max-width: 600px;   /* Ensures the section doesn't grow too large */
+    width: 80%;         
+    max-width: 300px;
+    max-height: 300px;  
+    background: linear-gradient(135deg, #FFE0B2, #D1F2EB, #F5F3FF);
 }
 
 
 .mobile {
     display: flex;
+    margin-bottom: 10px;
 }
 
 .email {
     display: flex;
+}
+
+.mobile-number {
+    margin-left: 21px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px green;
+    margin-bottom: 10px;
+}
+
+.phone-style {
+    color: #4CAF50;
+}
+
+.phone-text {
+    text-shadow: 2px 2px 5px green;
+    font-weight: bold;
+}
+.envelope-style {
+    color: #007BFF;
+}
+
+.envelope-style:hover {
+    color: goldenrod;
+}
+.email-style {
+    margin-left: 21px;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.email-style:hover {
+    color: goldenrod;
+} 
+
+.email-text-style {
+    color: #007BFF;
+}
+
+.email-text-style:hover{ 
+    color: goldenrod;
+}
+.linkedin {
+    margin-top: 10px;
+    display: flex;
+}
+
+.linkedin-text {
+    font-weight: bold;
+    text-shadow: 2px 2px 5px red;
+}
+
+.contact-body {
+    background-image: url("/images/quino-al-4SNUcHPiC8c-unsplash.jpg");
+    height: 100vh;
+    width: 100%;
 }
