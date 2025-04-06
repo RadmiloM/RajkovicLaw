@@ -1,10 +1,5 @@
 const mobile = document.querySelector('.phone-text');
 const email = document.querySelector('.email-text-style');
-const back = document.querySelector('.go-back');
-back.addEventListener('click', () => {
-    history.back();
-})
-
 const language = localStorage.getItem('language') || 'en';
 
 updateContactDetails();
