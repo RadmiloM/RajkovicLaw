@@ -31,10 +31,10 @@ englandFlag.addEventListener('click', () => {
     about.textContent = 'About'
     services.textContent = 'Services';
     contact.textContent = 'Contact';
-    // imageText.textContent =`At Rajkovic Law, we stand as the advocates of justice, 
-    //             ensuring that every individual and business receives the legal support they deserve. 
-    //             Whether you are facing complex legal challenges or need guidance on a personal matter, 
-    //             we provide clear, effective, and compassionate representation.`
+    imageText.textContent =`At Rajkovic Law, we stand as the advocates of justice, 
+                ensuring that every individual and business receives the legal support they deserve. 
+                Whether you are facing complex legal challenges or need guidance on a personal matter, 
+                we provide clear, effective, and compassionate representation.`
 
 });
 

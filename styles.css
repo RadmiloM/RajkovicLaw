@@ -18,7 +18,7 @@
     margin-left: 3px;
 }
 
-img {
+.home-image {
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -166,4 +166,47 @@ img {
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
+}
+
+.about-title {
+    margin: auto;
+    text-shadow: #bb2649 1px 0 10px;
+}
+
+.about-law-office {
+    padding-top: 10px;
+    padding: 40px;
+    margin: 30px auto;
+    border: 1px solid black;
+    width: clamp(300px, 80%, 500px);      
+    max-height: 300px;  
+    background: #F4F1EA;
+    display:flex;
+    justify-content: space-between;
+}
+
+.about-law-text {
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: 'Georgia', serif;
+    text-align: justify;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.about-img-details > div{
+    display: flex;
+    justify-content: center;
+}
+.about-img {
+    width: 300px;
+    max-width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.about-body {
+   background-image: url('/images/samantha-gades-BlIhVfXbi9s-unsplash.jpg');
 }
