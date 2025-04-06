@@ -1,18 +1,160 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <script src="https://kit.fontawesome.com/b744cdd193.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Services | Rajkovic Law</title>
+    <style>
+        :root {
+            --primary: #002244;
+            --accent: #c0a062;
+            --bg: #f4f4f4;
+            --text: #333;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+        }
+
+        header {
+            background-color: var(--primary);
+            padding: 1.5rem 2rem;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        h2 {
+            color: var(--primary);
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+
+        .service {
+            background-color: white;
+            margin-bottom: 2rem;
+            padding: 1.5rem 2rem;
+            border-left: 6px solid var(--accent);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .service h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+
+        .service ul {
+            padding-left: 1.2rem;
+        }
+
+        .service ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #ddd;
+            font-size: 0.9rem;
+        }
+
+        .back-arrow {
+            margin-top: 10px;
+            margin-left: 40px;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.5rem 1rem;
+            background-color: #e0e7ff;
+            color: #1e3a8a;
+            font-weight: 600;
+            font-size: 0.95rem;
+            border-radius: 999px;
+            text-decoration: none;
+            border: 1px solid #c7d2fe;
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 0 2px 4px rgba(30, 58, 138, 0.1);
+        }
+    </style>
 </head>
 
 <body>
-    <section class="header-container">
-        <button class="go-back">
-            <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
-        </button>
-        <h1>Services page</h1>
-    </section>
-    <script src="app.js"></script>
+
+    <header>
+        <h1>RAJKOVIĆ | LAW</h1>
+    </header>
+    <a href="javascript:history.back()" class="back-arrow" title="Go back">
+        ← Back
+    </a>
+    <main>
+
+        <h2>Legal Services</h2>
+
+        <section class="service">
+            <h3>Corporate & Business Law</h3>
+            <ul>
+                <li>Legal support during regular business activity</li>
+                <li>Compliance with Serbian tax law and business registration</li>
+                <li>Drafting contracts and managing shareholder agreements</li>
+                <li>Loan, lease, and purchase/sale contracts</li>
+            </ul>
+        </section>
+
+        <section class="service">
+            <h3>Immigration & Citizenship Law</h3>
+            <ul>
+                <li>Visa applications, work permits, and citizenship processes</li>
+                <li>Complete paperwork and legal execution</li>
+            </ul>
+        </section>
+
+        <section class="service">
+            <h3>Tax & Financial Law</h3>
+            <ul>
+                <li>Advising on double taxation, tax deductions</li>
+                <li>Settled tax obligation certificates</li>
+                <li>Representation before tax authorities</li>
+            </ul>
+        </section>
+
+        <section class="service">
+            <h3>Real Estate Law</h3>
+            <ul>
+                <li>Property contracts, pre-contracts, and registrations</li>
+                <li>Real estate restructuring and compliance</li>
+                <li>Communication with cadastre and state bodies</li>
+            </ul>
+        </section>
+
+        <section class="service">
+            <h3>Dispute Resolution & Litigation</h3>
+            <ul>
+                <li>Mediation before Chamber of Commerce</li>
+                <li>Enforcement procedures and debt recovery</li>
+                <li>Representation in civil, criminal, and executive proceedings</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Rajković Law. All rights reserved.
+    </footer>
 </body>
 
 </html>
