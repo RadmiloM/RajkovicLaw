@@ -99,7 +99,7 @@
     padding: 28px;
 }
 
-.linkedin-icon{
+.linkedin-icon {
     color: blue;
 }
 
@@ -112,25 +112,31 @@
     color: #a67c00;
 }
 
-.opening-hours{
+.opening-hours {
     text-align: center;
     font-size: 32px;
     margin-right: 9px;
 }
+
 .hours {
     padding: 30px;
     border: 1px solid darkgray;
     background-color: gainsboro
 }
 
-.day{
+.day {
     font-size: 20px;
     color: blue;
 }
+
 .embedded-map {
     display: flex;
     align-items: center;
     margin-top: 15px;
     height: 300px;
     width: 404px;
+}
+
+.contact-background{
+    background-color: cornsilk;
 }
