@@ -112,7 +112,24 @@
     color: #a67c00;
 }
 
+.opening-hours{
+    text-align: center;
+    font-size: 32px;
+    margin-right: 9px;
+}
+.hours {
+    padding: 30px;
+    border: 1px solid darkgray;
+    background-color: gainsboro
+}
+
+.day{
+    font-size: 20px;
+    color: blue;
+}
 .embedded-map {
+    display: flex;
+    align-items: center;
     margin-top: 15px;
     height: 300px;
     width: 404px;
