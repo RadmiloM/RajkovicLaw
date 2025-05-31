@@ -226,50 +226,6 @@ h2 {
     color: var(--primary);
 }
 
-.contact-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-}
-
-.contact-item {
-    display: flex;
-    gap: 1rem;
-    background-color: #f1f5f9;
-    padding: 1.2rem;
-    border-radius: var(--radius);
-    transition: background 0.3s;
-}
-
-.contact-item:hover {
-    background-color: #e0e7ff;
-}
-
-.contact-icon {
-    font-size: 1.5rem;
-    color: var(--accent);
-    margin-top: 0.3rem;
-}
-
-.contact-details span {
-    font-weight: bold;
-    color: var(--primary);
-}
-
-.contact-details a,
-.contact-details address,
-.contact-details p {
-    display: block;
-    color: var(--gray);
-    font-size: 0.95rem;
-    text-decoration: none;
-    margin-top: 0.2rem;
-}
-
-.contact-details a:hover {
-    color: var(--accent);
-}
-
 .extras,
 .simple-section {
     margin-top: 2rem;
