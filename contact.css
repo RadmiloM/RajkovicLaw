@@ -37,11 +37,10 @@
     align-items: center;
     gap: 7px;
     margin-top: 15px;
-    padding: 17px;
+    padding: 28px;
     border: 1px solid darkgray;
     border-radius: 15px;
     background-color: #f5f5f5;
-    margin-left: 13px;
 }
 
 .phone-icon {
@@ -70,9 +69,8 @@
     margin-top: 10px;
     border: 1px solid darkgray;
     background-color: #f5f5f5;
-    padding: 17px;
+    padding: 28px;
     border-radius: 15px;
-    margin-left: 15px;
 }
 
 .address-icon {
@@ -98,8 +96,7 @@
     background-color: #f5f5f5;
     border-radius: 15px;
     margin-top: 10px;
-    margin-left: 13px;
-    padding: 17px;
+    padding: 28px;
 }
 
 .linkedin-icon{
@@ -113,4 +110,10 @@
 
 .linkedin-link:hover {
     color: #a67c00;
+}
+
+.embedded-map {
+    margin-top: 15px;
+    height: 300px;
+    width: 404px;
 }
