@@ -4,7 +4,7 @@ const language = localStorage.getItem('language') || 'en';
 
 updateContactDetails();
 function updateContactDetails() {
-    switch(language) {
+    switch (language) {
         case 'en':
             mobile.innerHTML = '&nbsp Phone';
             email.innerHTML = '&nbsp Email';
@@ -13,7 +13,7 @@ function updateContactDetails() {
             mobile.innerHTML = '&nbsp Телефон';
             email.innerHTML = '&nbsp Эл. почта';
             return;
-        case 'fr': 
+        case 'fr':
             mobile.innerHTML = '&nbsp Téléphone';
             email.innerHTML = '&nbsp Email';
             return;
