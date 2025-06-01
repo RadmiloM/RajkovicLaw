@@ -1,153 +1,160 @@
  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
-.contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+ .contact {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
 
-.contact-details {
-    font-size: 32px;
-    margin-bottom: 15px;
-    margin-top: 5px;
-}
+ .left-arrow {
+     margin-left: 10px;
+     margin-top: 10px;
+     font-size: 20px;
+     cursor: pointer;
+ }
 
-.email {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 28px;
-    border: 1px solid darkgray;
-    border-radius: 15px;
-    background-color: #f5f5f5;
-}
+ .contact-details {
+     font-size: 32px;
+     margin-bottom: 15px;
+     margin-top: 5px;
+ }
 
-.email-icon {
-    color: blue;
-    font-size: 20px;
-}
+ .email {
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     padding: 28px;
+     border: 1px solid darkgray;
+     border-radius: 15px;
+     background-color: #f5f5f5;
+ }
 
-.email-address {
-    text-decoration: none;
-    font-size: larger
-}
+ .email-icon {
+     color: blue;
+     font-size: 20px;
+ }
 
-.email-address:hover {
-    color: #a67c00;
-}
+ .email-address {
+     text-decoration: none;
+     font-size: larger
+ }
 
-.phone {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    margin-top: 15px;
-    padding: 28px;
-    border: 1px solid darkgray;
-    border-radius: 15px;
-    background-color: #f5f5f5;
-}
+ .email-address:hover {
+     color: #a67c00;
+ }
 
-.phone-icon {
-    color: blue;
-}
+ .phone {
+     display: flex;
+     align-items: center;
+     gap: 7px;
+     margin-top: 15px;
+     padding: 28px;
+     border: 1px solid darkgray;
+     border-radius: 15px;
+     background-color: #f5f5f5;
+ }
+
+ .phone-icon {
+     color: blue;
+ }
 
 
-.phone-number {
-    text-decoration: none;
-    font-size: larger;
-}
+ .phone-number {
+     text-decoration: none;
+     font-size: larger;
+ }
 
-.phone-number:hover {
-    color: #a67c00;
-}
+ .phone-number:hover {
+     color: #a67c00;
+ }
 
-.contact-info {
-    padding: 30px;
-    background-color: gainsboro
-}
+ .contact-info {
+     padding: 30px;
+     background-color: gainsboro
+ }
 
-.address {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-top: 10px;
-    border: 1px solid darkgray;
-    background-color: #f5f5f5;
-    padding: 28px;
-    border-radius: 15px;
-}
+ .address {
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     margin-top: 10px;
+     border: 1px solid darkgray;
+     background-color: #f5f5f5;
+     padding: 28px;
+     border-radius: 15px;
+ }
 
-.address-icon {
-    color: blue;
+ .address-icon {
+     color: blue;
 
-}
+ }
 
-.street-address {
-    color: blue;
-    font-size: larger;
-    cursor: pointer;
-}
+ .street-address {
+     color: blue;
+     font-size: larger;
+     cursor: pointer;
+ }
 
-.street-address:hover {
-    color: #a67c00;
-}
+ .street-address:hover {
+     color: #a67c00;
+ }
 
-.linkedin {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    border: 1px solid darkgray;
-    background-color: #f5f5f5;
-    border-radius: 15px;
-    margin-top: 10px;
-    padding: 28px;
-}
+ .linkedin {
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     border: 1px solid darkgray;
+     background-color: #f5f5f5;
+     border-radius: 15px;
+     margin-top: 10px;
+     padding: 28px;
+ }
 
-.linkedin-icon {
-    color: blue;
-}
+ .linkedin-icon {
+     color: blue;
+ }
 
-.linkedin-link {
-    text-decoration: none;
-    color: blue
-}
+ .linkedin-link {
+     text-decoration: none;
+     color: blue
+ }
 
-.linkedin-link:hover {
-    color: #a67c00;
-}
+ .linkedin-link:hover {
+     color: #a67c00;
+ }
 
-.opening-hours {
-    text-align: center;
-    font-size: 32px;
-    margin-right: 9px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
+ .opening-hours {
+     text-align: center;
+     font-size: 32px;
+     margin-right: 9px;
+     margin-top: 15px;
+     margin-bottom: 15px;
+ }
 
-.hours {
-    padding: 41px;
-    border: 1px solid darkgray;
-    background-color: gainsboro;
-    margin-bottom: 15px;
-}
+ .hours {
+     padding: 41px;
+     border: 1px solid darkgray;
+     background-color: gainsboro;
+     margin-bottom: 15px;
+ }
 
-.day {
-    font-size: 20px;
-    color: blue;
-}
+ .day {
+     font-size: 20px;
+     color: blue;
+ }
 
-.embedded-map {
-    display: flex;
-    align-items: center;
-    margin-top: 15px;
-    height: 300px;
-    width: 404px;
-}
+ .embedded-map {
+     display: flex;
+     align-items: center;
+     margin-top: 15px;
+     height: 300px;
+     width: 404px;
+ }
 
-.contact-background{
-    background-color: cornsilk;
-}
+ .contact-background {
+     background-color: cornsilk;
+ }
