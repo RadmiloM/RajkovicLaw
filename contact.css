@@ -97,6 +97,7 @@
      color: blue;
      font-size: larger;
      cursor: pointer;
+     font-style: normal;
  }
 
  .street-address:hover {
