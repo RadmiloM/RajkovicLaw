@@ -2,7 +2,7 @@ const aboutTitle = document.querySelector('.about-title');
 const firstParagraph = document.querySelector('.first-paragraph');
 const secondParagraph = document.querySelector('.second-paragraph');
 const thirdParagraph = document.querySelector('.third-paragraph');
-const language = localStorage.getItem('language') || 'en';
+const language = localStorage.getItem('language') || 'srb';
 
 
 getLanguage();

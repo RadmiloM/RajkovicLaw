@@ -5,7 +5,7 @@ const franceFlag = document.querySelector('.france');
 const about = document.querySelector('.about');
 const services = document.querySelector('.services');
 const contact = document.querySelector('.contact');
-const language = localStorage.getItem('language') || 'en';
+const language = localStorage.getItem('language') || 'srb';
 
 
 russianFlag.addEventListener('click', () => {
@@ -38,31 +38,30 @@ serbianFlag.addEventListener('click', () => {
 this.getLanguage();
 function getLanguage() {
     switch (language) {
-    case 'en':
-        about.textContent = 'About'
-        services.textContent = 'Services';
-        contact.textContent = 'Contact';
-        return;
-    case 'ru':
-        about.textContent = ' О нас'
-        services.textContent = 'Услуги';
-        contact.textContent = 'Контакты';
-        return;
-    case 'fr':
-        about.textContent = 'À propos'
-        services.textContent = 'Services';
-        contact.textContent = 'Contact';
-        return;
-    case 'srb':
-        about.textContent = 'O nama'
-        services.textContent = 'Usluge';
-        contact.textContent = 'Kontakt';
-        return;
-    default:
-        about.textContent = 'About'
-        services.textContent = 'Services';
-        contact.textContent = 'Contact';
-        return;
+        case 'en':
+            about.textContent = 'About'
+            services.textContent = 'Services';
+            contact.textContent = 'Contact';
+            return;
+        case 'ru':
+            about.textContent = ' О нас'
+            services.textContent = 'Услуги';
+            contact.textContent = 'Контакты';
+            return;
+        case 'fr':
+            about.textContent = 'À propos'
+            services.textContent = 'Services';
+            contact.textContent = 'Contact';
+            return;
+        case 'srb':
+            about.textContent = 'O nama'
+            services.textContent = 'Usluge';
+            contact.textContent = 'Kontakt';
+            return;
+        default:
+            about.textContent = 'O nama'
+            services.textContent = 'Usluge';
+            contact.textContent = 'Kontakt';
+            return;
+    }
 }
-}
-localStorage.removeItem('language');

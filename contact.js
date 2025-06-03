@@ -2,7 +2,7 @@ const mobile = document.querySelector('.phone-text');
 const email = document.querySelector('.email-text-style');
 const contactDetails = document.querySelector('.contact-details');
 const openingHours = document.querySelector('.opening-hours')
-const language = localStorage.getItem('language') || 'en';
+const language = localStorage.getItem('language') || 'srb';
 
 updateContactDetails();
 function updateContactDetails() {
@@ -24,8 +24,8 @@ function updateContactDetails() {
             openingHours.textContent = 'Radno vreme';
             return;
         default:
-            contactDetails.textContent = 'Contact details';
-            openingHours.textContent = 'Opening hours';
+            contactDetails.textContent = 'Контакт детаљи';
+            openingHours.textContent = 'Radno vreme';
             return;
     }
 }
