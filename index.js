@@ -2,7 +2,6 @@ const russianFlag = document.querySelector('.russian');
 const englandFlag = document.querySelector('.great-britain');
 const serbianFlag = document.querySelector('.serbian');
 const franceFlag = document.querySelector('.france');
-console.log("im on index page")
 const about = document.querySelector('.about');
 const services = document.querySelector('.services');
 const contact = document.querySelector('.contact');
