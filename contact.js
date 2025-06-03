@@ -1,28 +1,31 @@
 const mobile = document.querySelector('.phone-text');
 const email = document.querySelector('.email-text-style');
+const contactDetails = document.querySelector('.contact-details');
+const openingHours = document.querySelector('.opening-hours')
 const language = localStorage.getItem('language') || 'en';
 
 updateContactDetails();
 function updateContactDetails() {
     switch (language) {
         case 'en':
-            mobile.innerHTML = '&nbsp Phone';
-            email.innerHTML = '&nbsp Email';
+            contactDetails.textContent = 'Contact details';
+            openingHours.textContent = 'Opening hours';
             return;
         case 'ru':
-            mobile.innerHTML = '&nbsp Телефон';
-            email.innerHTML = '&nbsp Эл. почта';
+            contactDetails.textContent = 'Контактные данные';
+            openingHours.textContent = 'Часы работы';
             return;
         case 'fr':
-            mobile.innerHTML = '&nbsp Téléphone';
-            email.innerHTML = '&nbsp Email';
+            contactDetails.textContent = 'Coordonnées';
+            openingHours.textContent = "Horaires d'ouverture";
             return;
         case 'srb':
-            mobile.innerHTML = '&nbsp Telefon';
-            email.innerHTML = '&nbsp E-pošta';
+            contactDetails.textContent = 'Контакт детаљи';
+            openingHours.textContent = 'Radno vreme';
             return;
         default:
-            mobile.innerHTML = '&nbsp Phone';
-            email.innerHTML = '&nbsp Email';
+            contactDetails.textContent = 'Contact details';
+            openingHours.textContent = 'Opening hours';
+            return;
     }
 }
