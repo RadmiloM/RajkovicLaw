@@ -285,3 +285,7 @@ h2 {
     background-color: #c7d2fe;
     transform: translateX(-2px);
   }
+.logo {
+    height: 30px;
+    max-width: 100%;
+}
