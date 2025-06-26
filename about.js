@@ -7,93 +7,102 @@ const language = localStorage.getItem('language') || 'srb';
 
 getLanguage();
 function getLanguage() {
-    switch (language) {
-        case 'en':
-            aboutTitle.textContent = `About Dragana Rajković Law Office`;
-            firstParagraph.textContent = `At Dragana Rajković Law Office,
-                    we are committed to providing clear,
-                    compassionate,
-                    and effective legal support to individuals and families navigating important life challenges.
-                    Founded by attorney Dragana Rajkovic,
-                    our firm offers a modern, client-focused approach built on trust, respect, and dedication.`;
-            secondParagraph.textContent = `We understand that dealing with legal matters can be overwhelming —
-                    that’s why we take the time to listen, explain your options,
-                    and advocate for your rights every step of the way.
-                    Whether you’re facing a legal dispute,
-                    need guidance with documentation,
-                    or simply want reliable legal advice,
-                    we are here to support you with professionalism and care.`;
-            thirdParagraph.textContent = `Our office proudly serves clients in Belgrade and focuses on family law,
-                    immigration, civil matters.
-                    Every case is treated with personal attention,
-                    and every client is met with empathy, discretion and honest communication.
-                    At Dragana Rajkovic Law Office your peace of mind is our priority.`;
-            return;
-        case 'ru':
-            aboutTitle.textContent = `О юридической фирме Dragana Rajković`;
-            firstParagraph.textContent = `В юридической фирме Dragana Rajković Law Office мы стремимся оказывать ясную,
-сострадательную и эффективную юридическую поддержку отдельным лицам и семьям, сталкивающимся с важными жизненными трудностями.
-Основанная адвокатом Драганой Райкович,наша фирма предлагает современный, ориентированный на клиента подход, основанный на доверии, уважении и преданности делу.`;
-            secondParagraph.textContent = `Мы понимаем, что решение юридических вопросов может быть непреодолимым —
-поэтому мы уделяем время, чтобы выслушать, объяснить ваши возможности и защищать ваши права на каждом этапе.
-Сталкиваетесь ли вы с юридическим спором, нуждаетесь в руководстве по документации или просто хотите получить надежную юридическую консультацию,
-мы здесь, чтобы оказать вам профессиональную и заботливую поддержку.`;
-            thirdParagraph.textContent = `Наш офис с гордостью обслуживает клиентов в Белграде и фокусируется на семейном праве,
-иммиграции, гражданских делах.Каждый случай рассматривается с индивидуальным вниманием, и каждый клиент встречает сочувствие, осмотрительность и честное общение.
-В юридической конторе Dragana Rajkovic ваше спокойствие является нашим приоритетом.`;
-            return;
-        case 'fr':
-            aboutTitle.textContent = `À propos du cabinet d'avocats Dragana Rajković`;
-            firstParagraph.textContent = `Au cabinet d'avocats Dragana Rajković, 
-            nous nous engageons à fournir un soutien juridique clair, compatissant et efficace aux personnes et aux familles confrontées à des difficultés importantes.
-Fondé par Maître Dragana Rajković, notre cabinet propose une approche moderne, centrée sur le client, fondée sur la confiance, le respect et le dévouement.`;
-            secondParagraph.textContent = `Nous comprenons que gérer des questions juridiques peut être une tâche ardue. 
-            C'est pourquoi nous prenons le temps de vous écouter, 
-            de vous expliquer vos options et de défendre vos droits à chaque étape. 
-            Que vous soyez confronté à un litige, 
-            que vous ayez besoin d'aide pour vos 
-            documents ou que vous souhaitiez simplement des conseils juridiques fiables, 
-            nous sommes là pour vous accompagner avec professionnalisme et attention.`;
-            thirdParagraph.textContent = `Notre cabinet est fier de servir ses clients à Belgrade et se concentre sur le droit de la famille, l'immigration et les affaires civiles.
-Chaque dossier est traité avec une attention personnalisée et chaque client bénéficie d'un accueil chaleureux, discret et honnête.
-Au cabinet Dragana Rajković, votre tranquillité d'esprit est notre priorité.`;
-            return;
-        case 'srb':
-            aboutTitle.textContent = `О адвокатској канцеларији Драгане Рајковић`;
-            firstParagraph.textContent = `У адвокатској канцеларији Драгане Рајковић, 
-            посвећени смо пружању јасне, саосећајне и ефикасне правне подршке појединцима и породицама које се суочавају 
-            са важним животним изазовима. Основана од стране адвокатице Драгане Рајковић, 
-            наша канцеларија нуди модеран, клијенту усмерен приступ, изграђен на поверењу, поштовању и посвећености.`
-            secondParagraph.textContent = `Разумемо да бављење правним питањима може бити застрашујуће —
-            зато одвајамо време да вас саслушамо, објаснимо вам могућности, 
-            и заступамо ваша права у сваком кораку. 
-            Без обзира да ли се суочавате са правним спором, 
-            потребна вам је помоћ око документације, 
-            или једноставно желите поуздан правни савет, ту смо да вас подржимо професионално и пажљиво.`;
-            thirdParagraph.textContent = `Наша канцеларија поносно служи клијентима у Београду и фокусира се на породично право, имиграцију и грађанска питања. 
-            Сваки случај се третира са личном пажњом, а сваки клијент се дочекује са емпатијом, дискрецијом и искреном комуникацијом.
-             У адвокатској канцеларији Драгане Рајковић, ваш душевни мир је наш приоритет.`;
-            return;
-        default:
-            aboutTitle.textContent = `About Dragana Rajković Law Office`;
-            firstParagraph.textContent = `At Dragana Rajković Law Office,
-                    we are committed to providing clear,
-                    compassionate,
-                    and effective legal support to individuals and families navigating important life challenges.
-                    Founded by attorney Dragana Rajkovic,
-                    our firm offers a modern, client-focused approach built on trust, respect, and dedication.`;
-            secondParagraph.textContent = `We understand that dealing with legal matters can be overwhelming —
-                    that’s why we take the time to listen, explain your options,
-                    and advocate for your rights every step of the way.
-                    Whether you’re facing a legal dispute,
-                    need guidance with documentation,
-                    or simply want reliable legal advice,
-                    we are here to support you with professionalism and care.`;
-            thirdParagraph.textContent = `Our office proudly serves clients in Belgrade and focuses on family law,
-                    immigration, civil matters.
-                    Every case is treated with personal attention,
-                    and every client is met with empathy, discretion and honest communication.
-                    At Dragana Rajkovic Law Office your peace of mind is our priority.`;
-            return;
-    }
+        switch (language) {
+                case 'en':
+                        aboutTitle.textContent = `About Dragana Rajković Law Office`;
+                        firstParagraph.textContent = `D. Rajković Law provides a wide range of legal services to clients. 
+            The firm was established to provide practical legal advice to individuals and business entities, 
+            and to approach complex legal issues with a strategically oriented approach in order to achieve results..`;
+                        secondParagraph.textContent = `We provide legal services in the following areas of law, 
+                        in particular in Corporate Law and Mergers and Acquisitions, 
+                        Bankruptcy and Liquidation, Real estate and Property Law, 
+                        Obligation law, Labour Law, Family Law, Inheritance law, 
+                        Tax Law, Banking and Finance Law, 
+                        Intellectual Property Law and Information Technology Law. 
+                        Our expertise includes providing legal assistance to natural and legal persons including, 
+                        but not limited to litigation, civil and enforcement proceedings, 
+                        business, labour law, obligation law, family and succession law, 
+                        intellectual property law and IT law. Our motto is reflected in 3 words - integrity, dedication and success.`;
+                        return;
+                case 'ru':
+                        aboutTitle.textContent = `О юридической фирме Dragana Rajković`;
+                        firstParagraph.textContent = `D. Rajković Law предоставляет широкий спектр юридических услуг клиентам. 
+                        Фирма была создана для предоставления практических юридических консультаций физическим и юридическим лицам, 
+                        а также для решения сложных юридических вопросов со стратегически ориентированным подходом для достижения результатов.`;
+                        secondParagraph.textContent = `Мы предоставляем юридические услуги в следующих областях права, 
+                        в частности, в корпоративном праве и слияниях и поглощениях, 
+                        банкротстве и ликвидации, имущественном праве, 
+                        обязательственном праве, трудовом праве, семейном праве, 
+                        наследственном праве, налоговом праве, банковском и 
+                        финансовом праве, праве интеллектуальной собственности и праве информационных технологий. 
+                        Наша экспертиза включает оказание юридической помощи физическим и юридическим лицам, включая, 
+                        помимо прочего, судебные разбирательства, гражданское и исполнительное производство, бизнес, 
+                        трудовое право, обязательственное право, семейное и наследственное право, 
+                        право интеллектуальной собственности и ИТ-право. Наш девиз отражен в 3 словах - честность, преданность и успех.`;
+                        return;
+                case 'fr':
+                        aboutTitle.textContent = `À propos du cabinet d'avocats Dragana Rajković`;
+                        firstParagraph.textContent = `Le cabinet D. Rajković offre une large gamme de services juridiques à ses clients. 
+                        Il a été créé pour fournir des conseils juridiques pratiques aux particuliers et aux entreprises, 
+                        et pour aborder les questions juridiques complexes avec une approche stratégique afin d'obtenir des résultats.`;
+                        secondParagraph.textContent = `Nous proposons des services juridiques dans les domaines suivants: 
+                        droit des sociétés et fusions-acquisitions, faillites et liquidations, 
+                        droit immobilier, droit des obligations, droit du travail, 
+                        droit de la famille, droit des successions, droit fiscal, 
+                        droit bancaire et financier, droit de la propriété intellectuelle et droit 
+                        des technologies de l'information. Notre expertise comprend l'assistance juridique aux 
+                        personnes physiques et morales, notamment en matière de contentieux, 
+                        de procédures civiles et d'exécution, de droit des affaires, 
+                        de droit du travail, de droit des obligations, 
+                        de droit de la famille et des successions, 
+                        de droit de la propriété intellectuelle et de droit des technologies de l'information. 
+                        Notre devise se résume en trois mots : intégrité, dévouement et réussite.`;
+                        return;
+                case 'srb':
+                        aboutTitle.textContent = `O advokatskoj kancelariji Dragane Rajković`;
+                        firstParagraph.textContent = `D. Rajković Law pruža široki spektar pravnih usluga klijentima. 
+            Firma je osnovana da pruži praktične pravne savete fizičkim i pravnim licima, i pristupi složenim pravnim pitanjima 
+            sa strateškim orijentisanim pristupom u cilju ostvarivanja rezultata.`
+                        secondParagraph.textContent = `Pružamo pravne usluge iz sledećih oblasti prava, 
+            posebno u privrednom pravu, 
+            korporativnom pravu i spajanjima i akvizicijama,
+            stečaju i likvidaciji, pravu nekretnina i imovinskom pravu, 
+            obligacionom pravu, radnom pravu, 
+            porodičnom pravu, naslednom pravu, 
+            poreskom pravu, 
+            bankarskom i finansijskom pravu, 
+            pravu intelektualne svojine i pravu informacionih tehnologija, 
+            Naša ekspertiza obuhvata pružanje pravne pomoći fizičkim i pravnim licima uključujući, 
+            ali ne ograničavajući se na parnični,
+            vanparnični i izvršni postupak, 
+            privredno pravo, radno pravo, 
+            obligaciono pravo, 
+            porodično i nasledno pravo, 
+            pravo intelektualne svojine i IT pravo. 
+            Naš moto se ogleda u 3 reči- integritet, posvećenost i uspeh.`;
+                        return;
+                default:
+                        aboutTitle.textContent = `O advokatskoj kancelariji Dragane Rajković`;
+                        firstParagraph.textContent = `D. Rajković Law pruža široki spektar pravnih usluga klijentima. 
+            Firma je osnovana da pruži praktične pravne savete fizičkim i pravnim licima, i pristupi složenim pravnim pitanjima 
+            sa strateškim orijentisanim pristupom u cilju ostvarivanja rezultata.`
+                        secondParagraph.textContent = `Pružamo pravne usluge iz sledećih oblasti prava, 
+            posebno u privrednom pravu, 
+            korporativnom pravu i spajanjima i akvizicijama,
+            stečaju i likvidaciji, pravu nekretnina i imovinskom pravu, 
+            obligacionom pravu, radnom pravu, 
+            porodičnom pravu, naslednom pravu, 
+            poreskom pravu, 
+            bankarskom i finansijskom pravu, 
+            pravu intelektualne svojine i pravu informacionih tehnologija, 
+            Naša ekspertiza obuhvata pružanje pravne pomoći fizičkim i pravnim licima uključujući, 
+            ali ne ograničavajući se na parnični,
+            vanparnični i izvršni postupak, 
+            privredno pravo, radno pravo, 
+            obligaciono pravo, 
+            porodično i nasledno pravo, 
+            pravo intelektualne svojine i IT pravo. 
+            Naš moto se ogleda u 3 reči- integritet, posvećenost i uspeh.`;
+                        return;
+        }
 }
