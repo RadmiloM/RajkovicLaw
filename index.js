@@ -6,8 +6,6 @@ const about = document.querySelector('.about');
 const services = document.querySelector('.services');
 const contact = document.querySelector('.contact');
 const language = localStorage.getItem('language') || 'srb';
-console.log("language in line 9",language);
-
 const aboutMenu = document.createElement("div");
 aboutMenu.classList.add("about-menu");
 const aboutOffice = document.createElement("a");
@@ -63,7 +61,6 @@ serbianFlag.addEventListener('click', () => {
 })
 this.getLanguage();
 function getLanguage() {
-    console.log("languages is",language);
     switch (language) {
         case 'en':
             about.textContent = 'About'
