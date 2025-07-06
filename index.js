@@ -4,17 +4,18 @@ const serbianFlag = document.querySelector('.serbian');
 const franceFlag = document.querySelector('.france');
 const about = document.querySelector('.about');
 const services = document.querySelector('.services');
+const news = document.querySelector(".news");
 const contact = document.querySelector('.contact');
 const language = localStorage.getItem('language') || 'srb';
 const aboutMenu = document.createElement("div");
 aboutMenu.classList.add("about-menu");
 const aboutOffice = document.createElement("a");
-aboutOffice.setAttribute("href","about.html")
+aboutOffice.setAttribute("href", "about.html")
 aboutOffice.classList.add("about-office");
 aboutMenu.appendChild(aboutOffice);
 
 const aboutMe = document.createElement("a");
-aboutMe.setAttribute("href","about-me.html");
+aboutMe.setAttribute("href", "about-me.html");
 aboutMe.classList.add("about-me");
 aboutMenu.appendChild(aboutMe);
 
@@ -27,6 +28,7 @@ russianFlag.addEventListener('click', () => {
     aboutMe.textContent = 'Обо мне';
     about.append(aboutMenu);
     services.textContent = 'Услуги';
+    news.textContent = 'Новости';
     contact.textContent = 'Контакты';
 });
 
@@ -37,6 +39,7 @@ englandFlag.addEventListener('click', () => {
     aboutMe.textContent = 'About me';
     about.append(aboutMenu);
     services.textContent = 'Services';
+    news.textContent = 'News';
     contact.textContent = 'Contact';
 });
 
@@ -47,6 +50,7 @@ franceFlag.addEventListener('click', () => {
     aboutMe.textContent = 'Sur moi';
     about.append(aboutMenu);
     services.textContent = 'Services';
+    news.textContent = 'Nouvelles';
     contact.textContent = 'Contact';
 })
 
@@ -57,6 +61,7 @@ serbianFlag.addEventListener('click', () => {
     aboutMe.textContent = 'O meni';
     about.append(aboutMenu);
     services.textContent = 'Usluge';
+    news.textContent = 'Vesti';
     contact.textContent = 'Kontakt';
 })
 this.getLanguage();
@@ -68,6 +73,7 @@ function getLanguage() {
             aboutMe.textContent = 'About me';
             about.append(aboutMenu);
             services.textContent = 'Services';
+            news.textContent = 'News';
             contact.textContent = 'Contact';
             return;
         case 'ru':
@@ -76,6 +82,7 @@ function getLanguage() {
             aboutMe.textContent = 'Обо мне';
             about.append(aboutMenu);
             services.textContent = 'Услуги';
+            news.textContent = 'Новости';
             contact.textContent = 'Контакты';
             return;
         case 'fr':
@@ -84,6 +91,7 @@ function getLanguage() {
             aboutMe.textContent = 'Sur moi';
             about.append(aboutMenu);
             services.textContent = 'Services';
+            news.textContent = 'Nouvelles';
             contact.textContent = 'Contact';
             return;
         case 'srb':
@@ -92,6 +100,7 @@ function getLanguage() {
             aboutMe.textContent = "O meni";
             about.append(aboutMenu);
             services.textContent = 'Usluge';
+            news.textContent = 'Vesti';
             contact.textContent = 'Kontakt';
             return;
         default:
@@ -100,6 +109,7 @@ function getLanguage() {
             aboutMe.textContent = "O meni";
             about.append(aboutMenu);
             services.textContent = 'Usluge';
+            news.textContent = 'Vesti';
             contact.textContent = 'Kontakt';
             return;
     }
