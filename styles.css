@@ -281,11 +281,6 @@
      max-width: 100%;
  }
 
- .about {
-     position: relative;
-     display: inline-block;
- }
-
  .about-menu {
      display: none;
      position: absolute;
@@ -301,4 +296,21 @@
 
  .about:hover .about-menu {
      display: block;
+ }
+
+ .services-menu {
+     display: none;
+     position: absolute;
+     background-color: #f1f1f1;
+     min-width: 140px;
+ }
+
+.services-container:hover .services-menu {
+    display: block;
+}
+
+ .services-menu a {
+     display: block;
+     padding: 2px 2px;
+     text-decoration: none;
  }

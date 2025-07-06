@@ -13,20 +13,18 @@ const aboutOffice = document.createElement("a");
 aboutOffice.setAttribute("href", "about.html")
 aboutOffice.classList.add("about-office");
 aboutMenu.appendChild(aboutOffice);
-
 const aboutMe = document.createElement("a");
 aboutMe.setAttribute("href", "about-me.html");
 aboutMe.classList.add("about-me");
 aboutMenu.appendChild(aboutMe);
-
-
-
+const commercialLaw = document.querySelector(".commercial-law");
 russianFlag.addEventListener('click', () => {
     localStorage.setItem('language', 'ru');
     about.textContent = 'О'
     aboutOffice.textContent = 'Об офисе';
     aboutMe.textContent = 'Обо мне';
     about.append(aboutMenu);
+    commercialLaw.textContent = "Коммерческое право и право слияний и поглощений";
     services.textContent = 'Услуги';
     news.textContent = 'Новости';
     contact.textContent = 'Контакты';
@@ -38,6 +36,7 @@ englandFlag.addEventListener('click', () => {
     aboutOffice.textContent = 'About office';
     aboutMe.textContent = 'About me';
     about.append(aboutMenu);
+    commercialLaw.textContent = "Commercial law and merger and acquisition law";
     services.textContent = 'Services';
     news.textContent = 'News';
     contact.textContent = 'Contact';
@@ -49,6 +48,7 @@ franceFlag.addEventListener('click', () => {
     aboutOffice.textContent = 'À propos du bureau';
     aboutMe.textContent = 'Sur moi';
     about.append(aboutMenu);
+    commercialLaw.textContent = "Droit commercial et droit des fusions et acquisitions";
     services.textContent = 'Services';
     news.textContent = 'Nouvelles';
     contact.textContent = 'Contact';
@@ -60,6 +60,7 @@ serbianFlag.addEventListener('click', () => {
     aboutOffice.textContent = 'O kancelariji';
     aboutMe.textContent = 'O meni';
     about.append(aboutMenu);
+    commercialLaw.textContent = "Privredno pravo i pravo spajanja i priprajanja";
     services.textContent = 'Usluge';
     news.textContent = 'Vesti';
     contact.textContent = 'Kontakt';
@@ -72,6 +73,7 @@ function getLanguage() {
             aboutOffice.textContent = 'About office';
             aboutMe.textContent = 'About me';
             about.append(aboutMenu);
+            commercialLaw.textContent = "Commercial law and merger and acquisition law";
             services.textContent = 'Services';
             news.textContent = 'News';
             contact.textContent = 'Contact';
@@ -81,6 +83,7 @@ function getLanguage() {
             aboutOffice.textContent = 'Об офисе';
             aboutMe.textContent = 'Обо мне';
             about.append(aboutMenu);
+            commercialLaw.textContent = "Коммерческое право и право слияний и поглощений";
             services.textContent = 'Услуги';
             news.textContent = 'Новости';
             contact.textContent = 'Контакты';
@@ -90,6 +93,7 @@ function getLanguage() {
             aboutOffice.textContent = 'À propos du bureau';
             aboutMe.textContent = 'Sur moi';
             about.append(aboutMenu);
+            commercialLaw.textContent = "Droit commercial et droit des fusions et acquisitions";
             services.textContent = 'Services';
             news.textContent = 'Nouvelles';
             contact.textContent = 'Contact';
@@ -99,6 +103,7 @@ function getLanguage() {
             aboutOffice.textContent = 'O kancelariji'
             aboutMe.textContent = "O meni";
             about.append(aboutMenu);
+            commercialLaw.textContent = "Privredno pravo i pravo spajanja i priprajanja";
             services.textContent = 'Usluge';
             news.textContent = 'Vesti';
             contact.textContent = 'Kontakt';
@@ -108,6 +113,7 @@ function getLanguage() {
             aboutOffice.textContent = 'O kancelariji'
             aboutMe.textContent = "O meni";
             about.append(aboutMenu);
+            commercialLaw.textContent = "Privredno pravo i pravo spajanja i priprajanja";
             services.textContent = 'Usluge';
             news.textContent = 'Vesti';
             contact.textContent = 'Kontakt';

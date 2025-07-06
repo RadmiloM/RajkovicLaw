@@ -1,0 +1,57 @@
+.commercial-law-title {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.commercial-law-section {
+    border: 1px solid gray;
+    max-width: 720px;
+    margin: 0 auto;
+    border-radius: 14px;
+    color: blue;
+    background-color: floralwhite;
+}
+
+.commercial-law-text {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 700px;
+    line-height: 1.6;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Lora', serif;
+}
+
+.commercial-law-background {
+    background-image: url("images\\david-veksler-HpmDAS1Dozs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .commercial-law-background {
+        background-size: contain;
+        background-position: center top;
+        min-height: 60vh;
+    }
+
+    .commercial-law-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .commercial-law-section,
+    .commercial-law-background {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .left-arrow {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}
